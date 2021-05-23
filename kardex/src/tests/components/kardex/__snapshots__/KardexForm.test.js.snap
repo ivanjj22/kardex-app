@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <KardexForm /> debe de mostrarse correctamente 1`] = `
+<form
+  className="w-full mt-5 mb-5"
+  onSubmit={[Function]}
+>
+  <div
+    className="flex flex-wrap -mx-3 mb-6"
+  >
+    <div
+      className="w-full md:w-1/5 px-3 mb-6 md:mb-0"
+    >
+      <label
+        className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+        htmlFor="date"
+      >
+        Fecha
+      </label>
+      <input
+        className="dateInput appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+        name="date"
+        onChange={[Function]}
+        placeholder="Date"
+        type="date"
+        value=""
+      />
+    </div>
+    <div
+      className="w-full md:w-1/5 px-3"
+    >
+      <label
+        className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+        htmlFor="type"
+      >
+        Tipo
+      </label>
+      <select
+        className="typeInput appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        name="type"
+        onChange={[Function]}
+        placeholder="Tipo"
+        type="text"
+        value=""
+      >
+        <option
+          value=""
+        >
+          Seleccione
+        </option>
+        <option
+          value="init"
+        >
+          Inventario inicial
+        </option>
+        <option
+          value="purchase"
+        >
+          Compra
+        </option>
+        <option
+          value="selling"
+        >
+          Venta
+        </option>
+      </select>
+    </div>
+    <div
+      className="w-full md:w-1/5 px-3"
+    >
+      <label
+        className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+        htmlFor="units"
+      >
+        Cantidad
+      </label>
+      <input
+        className="unitsInput appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        min="1"
+        name="units"
+        onChange={[Function]}
+        placeholder="Cantidad"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="w-full md:w-1/5 px-3"
+    >
+      <label
+        className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+        htmlFor="units_price"
+      >
+        Valor unitario
+      </label>
+      <input
+        className="UnitsPriceInput appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        min="1"
+        name="units_price"
+        onChange={[Function]}
+        placeholder="Valor unitario"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="w-full md:w-1/5 px-3 my-auto"
+    >
+      <button
+        className="btn btn-sm btn-success text-white"
+      >
+        Guardar
+      </button>
+      <button
+        className="btn btn-sm btn-error mx-2 text-white"
+      >
+        Limpiar
+      </button>
+    </div>
+  </div>
+</form>
+`;
